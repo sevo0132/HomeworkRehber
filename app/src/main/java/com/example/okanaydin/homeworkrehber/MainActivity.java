@@ -1,9 +1,9 @@
 package com.example.okanaydin.homeworkrehber;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -18,10 +18,16 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
+
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authStateListener;
     private Button kullaniciSil, cikisYap;
     private TextView text;
+
+    private Button deneme, deneme2;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +36,23 @@ public class MainActivity extends AppCompatActivity {
         kullaniciSil=(Button)findViewById(R.id.kullaniciSil);
         cikisYap=(Button)findViewById(R.id.cikis_yap);
         text=(TextView)findViewById(R.id.yazi);
+
+        deneme=(Button)findViewById(R.id.deneme);
+        deneme2=(Button)findViewById(R.id.deneme2);
+
+        deneme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), BilgiGirisi.class));
+            }
+        });
+        deneme2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), BilgilerActivity.class));
+            }
+        });
+
 
 
         //FirebaseAuth sınıfının referans olduğu nesneleri kullanabilmek için getInstance metodunu kullanıyoruz.
@@ -102,11 +125,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        auth.addAuthStateListener(authStateListener);
-    }
 
     @Override
     public void onStop() {
@@ -115,5 +133,8 @@ public class MainActivity extends AppCompatActivity {
             auth.removeAuthStateListener(authStateListener);
         }
     }
+
 }
+
+
 

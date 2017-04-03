@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_bilgi_girisi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.okanaydin.homeworkrehber.BilgiGirisi">
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:srcCompat="@mipmap/add_btn"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageSelect"
+        android:background="#00ffffff"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@drawable/input_outline"
+        android:hint="Bilgi Title ... "
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/titleField"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:hint="Bilgi Description ... "
+        android:layout_below="@+id/titleField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/descField"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:text="Submit Bilgi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submitBtn"/>
+
+</RelativeLayout>
