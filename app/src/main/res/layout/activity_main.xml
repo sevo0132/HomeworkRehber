@@ -12,7 +12,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.okanaydin.homeworkrehber.MainActivity">
+    tools:context="com.example.okanaydin.homeworkrehber.Activities.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -23,16 +23,6 @@
         android:layout_marginTop="2dp"
         android:textAlignment="center" />
 
-    <Button
-        android:id="@+id/deneme2"
-        style="?android:textAppearanceSmall"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="270dp"
-        android:text="deneme2"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
-        android:background="@drawable/btn"/>
 
     <Button
         android:id="@+id/deneme"
@@ -40,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="320dp"
-        android:text="deneme"
+        android:text="Bilgiler"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
         android:background="@drawable/btn"/>

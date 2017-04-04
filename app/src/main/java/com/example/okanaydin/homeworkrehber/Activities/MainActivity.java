@@ -1,4 +1,4 @@
-package com.example.okanaydin.homeworkrehber;
+package com.example.okanaydin.homeworkrehber.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.okanaydin.homeworkrehber.FirebaseAuthentication.Giris;
 import com.example.okanaydin.homeworkrehber.FirebaseAuthentication.UyeOl;
+import com.example.okanaydin.homeworkrehber.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private Button kullaniciSil, cikisYap;
     private TextView text;
 
-    private Button deneme, deneme2;
+    private Button deneme;
 
 
 
@@ -38,18 +39,11 @@ public class MainActivity extends AppCompatActivity {
         text=(TextView)findViewById(R.id.yazi);
 
         deneme=(Button)findViewById(R.id.deneme);
-        deneme2=(Button)findViewById(R.id.deneme2);
 
         deneme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), BilgiGirisi.class));
-            }
-        });
-        deneme2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), BilgilerActivity.class));
+                startActivity(new Intent(getApplicationContext(), Anasayfa.class));
             }
         });
 

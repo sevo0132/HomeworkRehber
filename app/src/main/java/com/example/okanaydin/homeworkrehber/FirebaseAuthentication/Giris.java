@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.okanaydin.homeworkrehber.MainActivity;
+import com.example.okanaydin.homeworkrehber.Activities.MainActivity;
 import com.example.okanaydin.homeworkrehber.R;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;

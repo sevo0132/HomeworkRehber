@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.okanaydin.homeworkrehber.MainActivity;
+import com.example.okanaydin.homeworkrehber.Activities.MainActivity;
 import com.example.okanaydin.homeworkrehber.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
