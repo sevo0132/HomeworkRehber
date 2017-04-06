@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_turkce"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.okanaydin.homeworkrehber.Activities.Turkish">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="
+Hello\n
+Selam\n
+مرحبا
+\n
+---------------------------------------------------------------------------------
+How are you?\n
+Nasılsın?\n
+كيف حالك
+\n
+
+----------------------------------------------------------------------------------
+Fine, thank you.\n
+İyiyim, teşekkürler.\n
+بخير، شكرا لك
+\n
+----------------------------------------------------------------------------------
+What is your name?\n
+Adın ne?\n
+ما اسمك؟
+\n
+----------------------------------------------------------------------------------
+My name is ______ \n
+Benim adım _______ \n
+اسمي هو
+\n
+----------------------------------------------------------------------------------
+Nice to meet you \n
+Memnun oldum.\n
+تشرفت بمقابلتك
+\n
+----------------------------------------------------------------------------------
+Please \n
+Lütfen \n
+رجاء
+\n
+----------------------------------------------------------------------------------
+Thank you.: Teşekkür ederim.
+
+
+You’re welcome.: Bir şey değil.
+
+
+Yes: Evet.
+
+
+No: Hayır.
+
+
+Excuse me? : Bakar mısınız?
+
+
+Excuse me : (begging pardon)
+
+
+I’m sorry: Özür dilerim.
+
+
+Goodbye : Hoşçakalın.
+
+
+Goodbye : Güle güle.
+
+
+Good morning : Günaydın.
+
+
+Good afternoon : Tünaydın.
+
+
+Good day: İyi günler.
+
+
+Good evening : İyi akşamlar.
+
+
+Good night : İyi geceler.
+
+
+Good night (to sleep) : İyi uykular
+
+
+Welcome : Hoşgeldin.
+
+
+I don’t understand : Anlamıyorum
+
+
+Where is the toilet? : Tuvalet nerede?
+
+eklemeye çalış
+http://howtoistanbul.com/en/practical-turkish/1443
+
+
+
+
+"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

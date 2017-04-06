@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tab4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.okanaydin.homeworkrehber.TabPratice.Tab4">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Post and Communications \n\n
+        Post Office
+\n\n
+Post Offices and the Postal Service in Turkey are generally abbreviated to PTT.
+\n\n
+The Central Post Office in Istanbul is in Sirkeci, a district of Fatih. It is also Turkey’s largest post office. Although working hours change according to the office, the working hours of the central office are between 08.30 &#8211; 17.00. Some smaller branches are only open until 15:00. Some post officers in central areas also work on Saturdays. To find the closest post office to you, contact information and hours of operation, visit the official PTT website: www.ptt.gov.tr
+\n\n
+Fax Service
+\n\n
+You can send faxes from any post office, as well as most internet cafes in the city center.
+\n\n
+Telephone
+\n\n
+Istanbul’s telephone service has two area codes, one for the Anatolian side and one for the European. If the land line you need to call is on the other side you must also include its area code (0216 for the Anatolian side and 0212 for the European side).
+\n\n
+Turkey’s country code is 90.  International calls from Istanbul can be made from call centers or from public telephones using phone cards. If you are going to be making frequent local calls, it is advisable to get a telephone number from a GSM operator.
+\n\n
+GSM operators in Turkey such as Turk Telekom, Turkcell, and Vodafone support international calling as well. If you decide to buy a SIM card, it is recommended to buy from one of these three main companies.
+"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

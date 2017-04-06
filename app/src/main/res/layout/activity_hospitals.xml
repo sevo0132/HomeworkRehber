@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_hastane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context="com.example.okanaydin.homeworkrehber.Activities.Hospitals">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@color/cardview_light_background"
+                android:text="Hastaneler"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:id="@+id/hastane1"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital1"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane2"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital2"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane3"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane4"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital4"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane5"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital5"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:id="@+id/hastane6"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital6"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane7"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital7"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane8"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital8"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane9"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital9"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane10"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital10"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane11"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital11"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane12"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital12"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane13"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital13"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane14"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital14"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane15"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital15"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane16"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital16"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:id="@+id/hastane17"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital17"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane18"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital18"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane19"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital19"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@mipmap/rightwhite"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/hastane20"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    cardview:cardElevation="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    cardview:cardCornerRadius="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="50dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#333333"
+                            android:gravity="center_vertical"
+                            android:text="@string/hospital20"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/cardview_light_background"
+                            app:srcCompat="@mipmap/rightblack"
+                            android:scaleType="centerInside" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

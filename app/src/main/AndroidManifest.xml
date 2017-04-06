@@ -5,6 +5,15 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -19,31 +28,73 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".FirebaseAuthentication.Giris">
+        <activity android:name=".FirebaseAuthentication.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".FirebaseAuthentication.UyeOl">
+        <activity android:name=".FirebaseAuthentication.SignUp">
         </activity>
-        <activity android:name=".FirebaseAuthentication.YeniParola">
+        <activity android:name=".FirebaseAuthentication.NewPassword">
         </activity>
-        <activity android:name=".Activities.Anasayfa">
+        <activity android:name=".Activities.HomaPage">
         </activity>
-        <activity android:name=".Egitim">
+        <activity android:name=".Activities.Education">
         </activity>
-        <activity android:name=".Hastane">
+        <activity android:name=".Activities.Hospitals">
         </activity>
-        <activity android:name=".IOM">
+        <activity android:name=".Activities.IOM">
         </activity>
-        <activity android:name=".Pratik">
+        <activity android:name=".Activities.Pratice">
         </activity>
-        <activity android:name=".Turkce">
+        <activity android:name=".Activities.Turkish">
         </activity>
-        <activity android:name=".Ulasim">
+        <activity android:name=".Activities.Transportation">
         </activity>
+        <activity android:name=".TabPratice.Tab1">
+        </activity>
+        <activity android:name=".TabPratice.Tab2">
+        </activity>
+        <activity android:name=".TabPratice.Tab3">
+        </activity>
+        <activity android:name=".TabPratice.Tab4">
+        </activity>
+        <activity android:name=".TabPratice.Tab5">
+        </activity>
+        <activity android:name=".Hospitals.Hospital1">
+        </activity>
+        <activity android:name=".Hospitals.Hospital2">
+        </activity>
+        <activity android:name=".Hospitals.Hospital3">
+        </activity>
+        <activity android:name=".Hospitals.Hospital4">
+        </activity>
+        <activity android:name=".Hospitals.Hospital5">
+        </activity>
+        <activity android:name=".Hospitals.Hospital6">
+        </activity>
+        <activity android:name=".Hospitals.Hospital7">
+        </activity>
+        <activity android:name=".Hospitals.Hospital8">
+        </activity>
+        <activity android:name=".Hospitals.Hospital9">
+        </activity>
+        <activity android:name=".Hospitals.Hospital10">
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
     </application>
 
 </manifest>

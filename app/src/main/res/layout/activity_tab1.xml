@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tab1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.okanaydin.homeworkrehber.TabPratice.Tab1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Currency \n
+The Turkish Lira is the official currency of Turkey. Bank notes come in denominations of 5, 10, 20, 50, 100 and 200 TL. Coins come in the amounts of 5, 10, 25, and 50 Kurus and 1 Lira.
+\n\n
+ATMs\n
+ATMs can be found all around the country. All of them offer foreign language options and pay out Turkish liras. Cash withdrawal limits vary from bank to bank and are around 800 TL to 1.500 TL
+\n\n
+Changing Money\n
+Foreign exchange offices, which are known as “döviz bürosu” can be found throughout the country. Operating hours are mostly Monday to Friday, from 09:00 to 17:00. In the arrivals section of Atatürk and Sabiha Gökçen Airport, there are 24-hour exchange offices. Also the exchange offices located in shopping malls and touristic areas are open later and on Saturdays. US Dollars and Euros are accepted in highly touristic districts like Sultanahmet and Taksim but rates are often not competitive.
+\n\n
+Credit Cards\n
+Credit cards are widely used and accepted. Visitors can use their Visa and Mastercards but Amex and Diner’s are often not accepted.
+\n\n
+Traveller’s cheques\n
+Traveller’s cheques can be changed at banks or post offices. Note that you’ll need to have a valid passport with you."
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textSize="15sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

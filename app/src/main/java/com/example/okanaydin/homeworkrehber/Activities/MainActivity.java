@@ -9,8 +9,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.okanaydin.homeworkrehber.FirebaseAuthentication.Giris;
-import com.example.okanaydin.homeworkrehber.FirebaseAuthentication.UyeOl;
+import com.example.okanaydin.homeworkrehber.FirebaseAuthentication.Login;
+import com.example.okanaydin.homeworkrehber.FirebaseAuthentication.SignUp;
 import com.example.okanaydin.homeworkrehber.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         deneme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), Anasayfa.class));
+                startActivity(new Intent(getApplicationContext(), HomaPage.class));
             }
         });
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (user == null) {
 
-                    startActivity(new Intent(getApplicationContext(), Giris.class));
+                    startActivity(new Intent(getApplicationContext(), Login.class));
                     finish();
                 }
 
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                             //Silme işlemi başarılı oldugunda kullanıcıya bir mesaj gösterilip UyeOlActivity e geçiliyor.
                             if (task.isSuccessful()) {
                                 Toast.makeText(getApplicationContext(), "Hesabın silindi.Yeni bir hesap oluştur!", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(getApplicationContext(), UyeOl.class));
+                                startActivity(new Intent(getApplicationContext(), SignUp.class));
                                 finish();
                             }
                             else{
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 //FirebaseAuth.getInstance().signOut ile oturumu kapatabilmekteyiz.
                 auth.signOut();
 
-                startActivity(new Intent(getApplicationContext(), Giris.class));
+                startActivity(new Intent(getApplicationContext(), Login.class));
                 finish();
             }
         });
