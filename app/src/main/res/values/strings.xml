@@ -6,27 +6,31 @@
     <string name="kullanicisil">Kullanıcıyı Sil</string>
 
 
-    //Hospitals
-    <string name="hospital1">Arnavutköy Devlet Hastanesi</string>
-    <string name="hospital2">Bayrampaşa Devlet Hastanesi</string>
-    <string name="hospital3">Beşiktaş Sait Çiftçi Devlet Hastanesi</string>
-    <string name="hospital4">Beykoz Devlet Hastanesi</string>
-    <string name="hospital5">Esenyurt Devlet Hastanesi</string>
-    <string name="hospital6">Eyüp Devlet Hastanesi</string>
-    <string name="hospital7">Lütfiye Nuri Burat Devlet Hastanesi </string>
-    <string name="hospital8">İstinye Devlet Hastanesi</string>
-    <string name="hospital9">Maltepe Devlet Hastanesi</string>
-    <string name="hospital10">Pendik Devlet Hastanesi</string>
-    <string name="hospital11">Sarıyer İsmail Akgün Devlet Hastanesi</string>
-    <string name="hospital12">Silivri Devlet Hastanesi</string>
-    <string name="hospital13">Sultanbeyli Devlet Hastanesi </string>
-    <string name="hospital14">Şile Devlet Hastanesi</string>
-    <string name="hospital15">Üsküdar Devlet Hastanesi</string>
-    <string name="hospital16">Göztepe Eğitim ve Araştırma Hastanesi</string>
-    <string name="hospital17">Haydarpaşa Numune Eğitim ve Araştırma Hastanesi</string>
-    <string name="hospital18">Okmeydanı Eğitim ve Araştırma Hastanesi</string>
-    <string name="hospital19">Kartal Dr. Lütfi Kırdar Eğitim ve Araştırma Hastanesi</string>
-    <string name="hospital20">Şişli Hamidiye Eftal Eğitim ve Araştırma Hastanesi</string>
+    <string-array name="my_string_array">
+    <item name="hospital1">Arnavutköy Devlet Hastanesi</item>
+    <item name="hospital2">Bayrampaşa Devlet Hastanesi</item>
+    <item name="hospital3">Beşiktaş Sait Çiftçi Devlet Hastanesi</item>
+    <item name="hospital4">Beykoz Devlet Hastanesi</item>
+    <item name="hospital5">Esenyurt Devlet Hastanesi</item>
+    <item name="hospital6">Eyüp Devlet Hastanesi</item>
+    <item name="hospital7">Lütfiye Nuri Burat Devlet Hastanesi </item>
+    <item name="hospital8">İstinye Devlet Hastanesi</item>
+    <item name="hospital9">Maltepe Devlet Hastanesi</item>
+    <item name="hospital10">Pendik Devlet Hastanesi</item>
+    <item name="hospital11">Sarıyer İsmail Akgün Devlet Hastanesi</item>
+    <item name="hospital12">Silivri Devlet Hastanesi</item>
+    <item name="hospital13">Sultanbeyli Devlet Hastanesi </item>
+    <item name="hospital14">Şile Devlet Hastanesi</item>
+    <item name="hospital15">Üsküdar Devlet Hastanesi</item>
+    <item name="hospital16">Göztepe Eğitim ve Araştırma Hastanesi</item>
+    <item name="hospital17">Haydarpaşa Numune Eğitim ve Araştırma Hastanesi</item>
+    <item name="hospital18">Okmeydanı Eğitim ve Araştırma Hastanesi</item>
+    <item name="hospital19">Kartal Dr. Lütfi Kırdar Eğitim ve Araştırma Hastanesi</item>
+    <item name="hospital20">Şişli Hamidiye Eftal Eğitim ve Araştırma Hastanesi</item>
+</string-array>
+
+
+
     <string name="title_activity_maps">Map</string>
 
 

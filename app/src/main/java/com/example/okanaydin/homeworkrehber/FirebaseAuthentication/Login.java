@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.okanaydin.homeworkrehber.Activities.Hospitals;
 import com.example.okanaydin.homeworkrehber.Activities.MainActivity;
 import com.example.okanaydin.homeworkrehber.R;
 import com.google.android.gms.auth.api.Auth;
@@ -41,7 +42,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        startActivity(new Intent(getApplicationContext(), Hospitals.class));
         //FirebaseAuth sınıfının referans olduğu nesneleri kullanabilmek için getInstance methodunu kullanıyoruz.
         auth = FirebaseAuth.getInstance();
 

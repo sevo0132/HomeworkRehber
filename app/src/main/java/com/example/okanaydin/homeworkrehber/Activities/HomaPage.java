@@ -29,6 +29,7 @@ public class HomaPage extends AppCompatActivity {
         btn_egitim.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 startActivity(new Intent(getApplicationContext(),Education.class));
             }
         });
